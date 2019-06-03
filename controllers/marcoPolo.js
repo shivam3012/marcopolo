@@ -22,8 +22,8 @@ class marcoPolo {
 
             if (i*1000 === end)
                 return res.status(200).json({
-                    "success": true,
-                    "result": result
+                    "msg": "success",
+                    "number": result
                 });
         }
     }
